@@ -1,0 +1,135 @@
+int esquare(int x){ return x*x;}
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+int excntArray[100] = {0};
+void excntUpdate(int index){excntArray[index] += 1;}
+int esqrt(int x){ double y; if (x < 0) return 0; y = sqrt((double)x); return (int)y;}
+int emodulo(int a , int b){if(a==0){return 0;}if(b==0){printf("\nmod(a,b) with b=0\n");exit(1);};if(b < 0){if(a<0){return -emodulo(-a,-b);}int temp = emodulo(a, -b);if(temp==0){return 0;}else{return -(-b - temp);}}int result = a % b;if(result < 0){result+=b;}return result;}
+int emax(int a, int b){if(a > b){return a;} else{return b;}}
+#include <stdio.h>
+int main() {
+{
+int
+x_k
+= -12345;
+excntUpdate(0);
+excntUpdate(1);
+excntUpdate(2);
+excntUpdate(3);
+excntUpdate(4);
+excntUpdate(5);
+excntUpdate(6);
+excntUpdate(7);
+excntUpdate(8);
+excntUpdate(9);
+excntUpdate(10);
+excntUpdate(11);
+excntUpdate(12);
+excntUpdate(13);
+excntUpdate(14);
+excntUpdate(15);
+excntUpdate(16);
+excntUpdate(17);
+excntUpdate(18);
+excntUpdate(19);
+excntUpdate(20);
+excntUpdate(21);
+excntUpdate(22);
+excntUpdate(23);
+excntUpdate(24);
+excntUpdate(25);
+excntUpdate(26);
+excntUpdate(27);
+excntUpdate(28);
+excntUpdate(29);
+excntUpdate(30);
+excntUpdate(31);
+excntUpdate(32);
+excntUpdate(33);
+excntUpdate(34);
+excntUpdate(35);
+excntUpdate(36);
+excntUpdate(37);
+excntUpdate(38);
+excntUpdate(39);
+excntUpdate(40);
+excntUpdate(41);
+excntUpdate(42);
+excntUpdate(43);
+excntUpdate(44);
+excntUpdate(45);
+excntUpdate(46);
+excntUpdate(47);
+excntUpdate(48);
+excntUpdate(49);
+excntUpdate(50);
+excntUpdate(51);
+excntUpdate(52);
+excntUpdate(53);
+excntUpdate(54);
+excntUpdate(55);
+excntUpdate(56);
+excntUpdate(57);
+excntUpdate(58);
+excntUpdate(59);
+excntUpdate(60);
+excntUpdate(61);
+excntUpdate(62);
+excntUpdate(63);
+excntUpdate(64);
+excntUpdate(65);
+excntUpdate(66);
+excntUpdate(67);
+excntUpdate(68);
+excntUpdate(69);
+excntUpdate(70);
+excntUpdate(71);
+excntUpdate(72);
+excntUpdate(73);
+excntUpdate(74);
+excntUpdate(75);
+excntUpdate(76);
+excntUpdate(77);
+excntUpdate(78);
+excntUpdate(79);
+excntUpdate(80);
+excntUpdate(81);
+excntUpdate(82);
+excntUpdate(83);
+excntUpdate(84);
+excntUpdate(85);
+excntUpdate(86);
+excntUpdate(87);
+excntUpdate(88);
+excntUpdate(89);
+for(
+x_k
+=
+1
+;
+x_k
+<=
+100
+;
+x_k
+++)
+{
+{
+excntUpdate(90);
+excntUpdate(91);
+excntUpdate(92);
+excntUpdate(93);
+excntUpdate(94);
+excntUpdate(95);
+excntUpdate(96);
+excntUpdate(97);
+excntUpdate(98);
+excntUpdate(99);
+}
+}
+label_1:;
+printf("%d\n", 
+x_k
+);
+excntUpdate(100);
